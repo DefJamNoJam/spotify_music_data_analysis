@@ -85,34 +85,6 @@
     * `scikit-learn`: 머신러닝 모델 구현 (Logistic Regression, Decision Tree, Random Forest 등)
 * **개발 환경:** Jupyter Notebook
 
-## 🚀 프로젝트 실행 방법
-
-1.  **저장소 클론:**
-    ```bash
-    git clone [https://github.com/YourUsername/spotify-music-analysis.git](https://github.com/YourUsername/spotify-music-analysis.git)
-    cd spotify-music-analysis
-    ```
-    (여기서 `YourUsername`은 본인의 GitHub 사용자 이름으로, `spotify-music-analysis`는 저장소 이름으로 대체하세요.)
-
-2.  **데이터 다운로드:**
-    * 본 프로젝트에서 사용하는 데이터는 다음 Kaggle 링크에서 다운로드할 수 있습니다:
-        [https://www.kaggle.com/code/akiboy96/spotify-song-popularity-genre-exploration/input?scriptVersionId=51654626](https://www.kaggle.com/code/akiboy96/spotify-song-popularity-genre-exploration/input?scriptVersionId=51654626)
-    * 다운로드 받은 데이터 파일(예: `songs_normalize.csv` 등)을 `data/raw/` 폴더 안에 위치시켜 주세요.
-
-3.  **가상 환경 설정 및 라이브러리 설치:**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # Windows: .\venv\Scripts\activate
-    pip install -r requirements.txt
-    ```
-    * `requirements.txt` 파일은 프로젝트 실행에 필요한 모든 Python 라이브러리를 포함해야 합니다. 이 파일이 없다면, `pip install pandas numpy matplotlib seaborn plotly scikit-learn` 등 필요한 라이브러리를 직접 설치하세요.
-
-4.  **Jupyter Notebook 실행:**
-    ```bash
-    jupyter notebook notebooks/00s_10s_spotify_music_data_analysis.ipynb
-    ```
-    * 웹 브라우저에서 Jupyter Notebook이 열리면, 각 셀을 순서대로 실행하여 분석 과정을 따라갈 수 있습니다.
-
 ## 📚 참고 자료
 
 * [프로젝트 발표 자료 (PDF)](./docs/spotify_data_analysis.pdf)
